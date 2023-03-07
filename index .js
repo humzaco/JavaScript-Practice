@@ -53,3 +53,19 @@ console.log(aboutMe);
 // != vs !==
 
 // console.log(num1 !== num2);
+
+
+
+
+
+
+// truthy and falsy values 
+
+// falsy values 
+
+
+// false
+// ""
+// null 
+// undefined
+// 0
