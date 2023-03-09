@@ -1,13 +1,13 @@
 // template string 
-let age = 22;
-let firstName = "Hamza"
+// let age = 22;
+// let firstName = "Hamza"
 
 // "my name is hamza and my age is 22 "
 // let aboutMe = "my name is " + firstName + " and my age is " + age; 
 
-let aboutMe = `my name is ${firstName} and my age is ${age}`
+// let aboutMe = `my name is ${firstName} and my age is ${age}`
 
-console.log(aboutMe);
+// console.log(aboutMe);
 
 
 
@@ -139,3 +139,35 @@ console.log(aboutMe);
 // let age = 3;
 // let drink = age >= 5 ? "coffee" : "milk";
 // console.log(drink);
+
+
+
+
+
+
+
+// and  or operator 
+
+
+
+// if(firstName[0] === "H"){
+//     console.log("your name starts with H")
+// }
+
+// if(age > 18){
+//     console.log("you are above 18");
+// }
+
+// if(firstName[0] === "H" && age>18){
+//     console.log("Name starts with H and above 18");
+// }else{
+//     console.log("inside else");
+// }
+let firstName = "arshit";
+let age = 16;
+
+if(firstName[0] === "H" || age>18){
+    console.log("inside if");
+}else{
+    console.log("inside else");
+}
