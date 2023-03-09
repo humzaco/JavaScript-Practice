@@ -163,11 +163,44 @@
 // }else{
 //     console.log("inside else");
 // }
-let firstName = "arshit";
-let age = 16;
+// let firstName = "arshit";
+// let age = 16;
 
-if(firstName[0] === "H" || age>18){
-    console.log("inside if");
+// if(firstName[0] === "H" || age>18){
+//     console.log("inside if");
+// }else{
+//     console.log("inside else");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// nested if else
+
+// winning number 19 
+
+// 19 your guess is right 
+// 17 too low 
+// 20 too high 
+
+let winningNumber = 19;
+let userGuess = +prompt("Guess a number");
+
+if(userGuess === winningNumber){
+    console.log("Your guess is right!!");
 }else{
-    console.log("inside else");
+    if(userGuess < winningNumber){
+        console.log("too low !!!");
+    }else{
+        console.log("too high !!!");
+    }
 }
